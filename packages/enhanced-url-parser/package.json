@@ -1,0 +1,41 @@
+{
+    "name": "@plurid/enhanced-url-parser",
+    "version": "0.1.0",
+    "description": "Enhanced URL Parser",
+    "keywords": [
+        "enhanced",
+        "url",
+        "parser"
+    ],
+    "author": "Jan Cavel <caveljan@plurid.com> (https://plurid.com)",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/plurid/enhanced-url"
+    },
+    "bugs": {
+        "email": "feedback@plurid.com",
+        "url": "https://github.com/plurid/enhanced-url/issues"
+    },
+    "homepage": "https://github.com/plurid/enhanced-url/blob/master/packages/enhanced-url-parser/README.md",
+    "publishConfig": {
+        "access": "public"
+    },
+    "module": "dist/esm/index.js",
+    "main": "dist/index.js",
+    "types": "dist/types/components.d.ts",
+    "collection": "dist/collection/collection-manifest.json",
+    "files": [
+        "dist/"
+    ],
+    "scripts": {
+        "copy": "mkdir -p ./dist && cp ./test/index.html ./dist/",
+        "tsc": "yarn copy && tsc --project tsconfig.json"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+        "@types/node": "^12.0.0",
+        "typescript": "^3.4.5"
+    }
+}
