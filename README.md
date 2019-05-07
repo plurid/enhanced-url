@@ -37,14 +37,14 @@ The document is being written keeping an eye open on the formalization, practice
 
 Example
 
-    <meta name="enhanced-url:site" content="Youtube">
+    <meta name="enhanced-url:site" content="∂view">
     <meta name="enhanced-url:video" content="ikvCkkEnoaM">
     <meta name="enhanced-url:title" content="Ennja - Sora">
     <meta name="enhanced-url:query" content="t=140">
 
 displays as
 
-    Youtube         Ennja - Sora        video ikvCkkEnoaM       query t=140
+    ∂view         Ennja - Sora        video ikvCkkEnoaM       query t=140
 
 
 
