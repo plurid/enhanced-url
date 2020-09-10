@@ -7,14 +7,14 @@
         "url",
         "react"
     ],
-    "author": "Jan Cavel <caveljan@plurid.com> (https://plurid.com)",
+    "author": "ly3xqhl8g9 <ly3xqhl8g9@plurid.com> (https://plurid.com)",
     "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/plurid/enhanced-url"
     },
     "bugs": {
-        "email": "feedback@plurid.com",
+        "email": "source@plurid.com",
         "url": "https://github.com/plurid/enhanced-url/issues"
     },
     "homepage": "https://github.com/plurid/enhanced-url/blob/master/packages/enhanced-url-bar-react/README.md",
